@@ -6,14 +6,14 @@ var btnCheck = document.querySelector('.btn-check');
 var cavalo = [
     {
         name:"olhando para tras",
-        img:"horse-left.jpg",
+        img:"img/horse-left.jpg",
         incorrect:[90,180,270],
         leftDegIncrement:90,
         rightDegIncrement:-90
     },
     {
         name:"olhando para Frente",
-        img:"horse-right.jpg",
+        img:"img/horse-right.jpg",
         incorrect:[-90,-180,-270],
         leftDegIncrement:-90,
         rightDegIncrement:90
