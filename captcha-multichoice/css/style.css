@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(174, 112, 255);
+    color: white;
+}
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.challenge{
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 10px solid rgb(255, 255, 255);
+}
+.images{
+    display: flex;
+    padding: 10px 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.cell:hover{
+    cursor: pointer;
+    -webkit-box-shadow: -1px 1px 12px 2px rgb(31, 184, 26);
+    -moz-box-shadow: -1px 1px 12px 2px rgb(31, 184, 26);
+    box-shadow: -1px 1px 12px 2px rgb(31, 184, 26);
+}
+.cell.active{
+    border: 5px solid rgb(0, 255, 13);
+}
+.box-choice{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.box-choice h2{
+    height: 50px;
+    line-height: 50px;
+}
+.choice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 725px;
+    padding: 10px;
+}
+.choice-img{
+    position: relative;
+    padding: 15px;
+    width: 120px;
+}
+.choice-img img{
+    width: 100%;
+}
+.close{
+    position: absolute;
+    cursor: pointer;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    right: 6px;
+    top:4px;
+    bottom: 8px;
+    line-height: 30px;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 4px 1px black;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    border: 10px solid rgb(255, 255, 255);
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+button{
+    padding: 10px;
+    width: 130px;
+}
+button:first-of-type{
+    margin-right: 10px;
+}
+.btn{
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.btn-warning{
+    background-color: rgba(223, 167, 14, 0.815);
+}
+.btn-warning:hover{
+    background-color: rgb(223, 167, 14);
+}
+.btn-success{
+    background-color: rgba(24, 179, 24, 0.815);
+}
+.btn-success:hover{
+    background-color: rgb(24, 179, 24);
+}
